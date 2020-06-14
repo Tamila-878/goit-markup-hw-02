@@ -184,6 +184,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    text-decoration: none;
 }
 
 .button.prim {
@@ -198,7 +199,16 @@ body {
 .button:focus {
     color: var(--accent-color);
 }  
-    
+
+.basement {
+    color: rgba(255, 255, 255, 0.4);
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2.0;
+    text-align: center;
+}
+
 .icon:hover,
 .icon:focus {
     color: var(--primary-wight-color);
@@ -227,8 +237,12 @@ body {
 }
 
 .filter {
+    color: var(--title-texte-color);
     font-family: Roboto;
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
 }
 
 .filter:hover,
